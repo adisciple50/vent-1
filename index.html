@@ -1,0 +1,92 @@
+<!DOCTYPE html">
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Vent is an educational tool to make people aware of the effects of air polution.">
+	<meta name="author" content="Adam & Jason Crockett">
+	<link rel="icon" href="/img/favicon.ico">
+
+	<title>Vent ~ {%block pagetitle %}{% endblock %}</title>
+	<link rel="stylesheet" href="css/bs/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bs/hero.min.css">
+	<link rel="stylesheet" href="css/global/main.css">
+</head>
+
+<body>
+
+	<div class="jumbotron container">
+		<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+		<svg version="1.1" id="brand" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="101.004px" height="35.849px" viewBox="0 0 101.004 35.849" enable-background="new 0 0 101.004 35.849" xml:space="preserve">
+			<g id="text">
+				<path fill="#352141" d="M14.964,9.754L8.6,26.095H6.365L0,9.754h2.331l5.145,14.01l5.182-14.01H14.964z" />
+				<path fill="#352141" d="M29.144,26.095H16.945V9.754h11.836v1.944h-9.674v4.964h9.034v1.944h-9.034v5.544h10.036V26.095z" />
+				<path fill="#352141" d="M45.038,26.095h-2.222L34.24,13.208v12.887h-2.053V9.754h2.234l8.539,12.911V9.754h2.077V26.095z" />
+				<path fill="#352141" d="M60.304,11.698h-5.411v14.396h-2.162V11.698h-5.375V9.754h12.948V11.698z" />
+			</g>
+			<g id="icon">
+				<circle fill="#794599" cx="83.08" cy="17.924" r="17.924" />
+				<g id="waves">
+					<g>
+						<path fill="#352141" d="M73.895,25.587c-0.11-3.688,1.843-5.569,4.388-5.569c1.55,0,2.729,0.48,5.235,1.661
+				c1.845,0.882,3.208,1.546,4.572,1.546c1.329,0,1.955-1.068,1.992-3.096h2.175c0.186,4.091-1.917,5.566-4.202,5.566
+				c-1.476,0-2.804-0.442-5.348-1.622c-1.733-0.849-3.098-1.622-4.425-1.622s-2.139,0.923-2.175,3.136H73.895z" />
+					</g>
+					<g>
+						<path fill="#352141" d="M73.895,15.72c-0.11-3.687,1.843-5.567,4.388-5.567c1.55,0,2.729,0.479,5.235,1.66
+				c1.845,0.883,3.208,1.548,4.572,1.548c1.329,0,1.955-1.07,1.992-3.097h2.175c0.186,4.092-1.917,5.567-4.202,5.567
+				c-1.476,0-2.804-0.442-5.348-1.622c-1.733-0.848-3.098-1.623-4.425-1.623s-2.139,0.922-2.175,3.134H73.895z" />
+					</g>
+				</g>
+			</g>
+		</svg>
+
+		<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+		<p><a class="btn btn-primary btn-lg">Learn more</a>
+		</p>
+	</div>
+
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Vent</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a>
+					</li>
+					<li><a href="#about">About</a>
+					</li>
+					<li><a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+
+	<div class="container">
+		<div id="content">
+			<div id="primary">
+				<h1>{% block title %}{% endblock %}</h1>
+				{% block primary %}{% endblock %}
+			</div>
+			<div id="secondary">
+				<h3>Recent Entries:</h3>
+				<div>
+				</div>
+			</div>
+			<!-- /.container -->
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/jquery.js"></script>
+</body>
+
+</html>

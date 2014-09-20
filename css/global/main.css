@@ -1,0 +1,22 @@
+body{
+	background: #1a1a1a;
+}
+
+#brand{
+	width: 100%;
+	height: 10rem;
+}
+#waves path{
+	fill:#fff;
+	-webkit-transition: fill 1s;
+}
+#icon:hover{
+	transform: rotate(360deg);
+	-webkit-transition:transform 1s;
+	transform-origin: center;
+}
+#icon{
+	transform: rotate(0deg);
+	-webkit-transition:transform 1s;
+	transform-origin: center;
+}
